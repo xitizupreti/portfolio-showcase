@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 0;
+  border-top: 2px solid #eee;
+}
+
+.icon {
+  margin-left: 25px;
+}

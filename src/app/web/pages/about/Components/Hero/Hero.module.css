@@ -1,0 +1,70 @@
+/* .heroMain {
+  width: 100%;
+  
+} */
+
+/* @media screen and (min-width: 768px) {
+  .heroMain {
+    max-width: 1200px;
+  }
+} */
+
+.heroMain {
+  margin: 0 2rem;
+  margin-top: 7rem;
+}
+
+.heroMain h1 {
+  font-size: 2.6rem;
+  color: #222222;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.heroMain h1 strong {
+  font-weight: 500;
+}
+
+.subtitle p {
+  font-size: 18px;
+  line-height: 1.65;
+  color: rgba(34, 34, 34, 0.7);
+}
+
+.innerHolder {
+  padding-top: 35px;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.keyValues h2 {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin: 7px 0;
+}
+
+.keyValues .keys {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .keyValues .keys {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .heroMain {
+    margin: 0 1rem;
+    margin-top: 3rem;
+  }
+  .heroMain h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}

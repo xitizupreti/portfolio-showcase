@@ -1,0 +1,45 @@
+.LatestPostCard {
+  padding: 0;
+}
+
+.LatestPostCard li {
+  list-style: none;
+  padding-bottom: 20px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+}
+
+.thum {
+  width: 80px;
+  height: 80px;
+}
+
+.thum a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+small {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+.blogDetails h3 {
+  margin: 0;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+.blogDetails h3 a {
+  text-decoration: none;
+  color: #555;
+}
+
+.blogDetails h3 a:hover {
+  color: #589442;
+}

@@ -1,0 +1,73 @@
+.cardContainer {
+  min-width: 300px;
+  height: auto;
+  margin: 0 15px;
+}
+
+.foodImg {
+  width: 100%;
+  height: 20vh;
+}
+
+.foodImg img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.foodTitleAndRating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foodTitleAndRating h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.detail {
+  margin-top: 10px;
+}
+
+.foodTitleAndRating > div {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #e0e0e0;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  background: #eeeeee;
+  justify-content: center;
+  line-height: 16px;
+  align-items: center;
+  font-size: 12px;
+  flex: 0 0 27px;
+}
+
+.foodPriceAndTime {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.foodPrice p {
+  margin: 0;
+}
+
+.foodPrice p::before,
+.foodPrice p::after {
+  content: "•";
+  opacity: 0.5;
+  margin: 0 2px;
+}
+
+.foodTime {
+  opacity: 0.6;
+}

@@ -1,0 +1,22 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 0 0 5px 2px;
+  margin: 0;
+}
+
+.category a {
+  text-decoration: none;
+  color: #555;
+}
+
+.category a:hover {
+  color: #589442;
+}

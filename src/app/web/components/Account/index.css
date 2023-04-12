@@ -1,0 +1,51 @@
+.ant-modal-content {
+  top: 65px;
+  transition: height 0.5s linear;
+}
+
+.login-form {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 349px;
+  height: 350px;
+  background: white;
+  border-radius: 30px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 150px;
+}
+.auth-login {
+  padding: 8px 15px;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 30px;
+  width: 85px;
+  height: 50px;
+}
+
+.facebook-login {
+  background-color: #1565c0;
+}
+
+/* .facebook-login:hover {
+  background-color: #2196f3;
+} */
+
+/* .google-login {
+  background-color: #c62828;
+} */
+
+/* .google-login:hover {
+  background-color: #f44336;
+} */
+
+/* .new-user-save-btn {
+  background-color: ;
+} */

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+}
+
+.controller > div:first-child {
+  margin-right: 30px;
+  font-size: 1.3rem;
+}
+
+.controller > div:first-child a {
+  color: #000;
+}
+
+.slideBtn {
+  display: flex;
+}

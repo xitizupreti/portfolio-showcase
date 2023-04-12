@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

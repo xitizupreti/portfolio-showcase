@@ -1,0 +1,17 @@
+.container {
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.cardContainer {
+  display: flex;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+  }
+}

@@ -1,0 +1,33 @@
+/* .container {
+  background-color: rgb(109, 108, 110);
+} */
+
+.swiper {
+  /* background-color: red; */
+  /* height: 400px; */
+  overflow: hidden;
+  margin: 0 -15px;
+}
+
+/* .slick-list {}
+.slick-slide>div {} */
+
+/* @media (max-width: 768px) {
+  .ProductShowcase {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ProductShowcase {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
+    grid-gap: 20px;
+  }
+
+  .card {
+    text-align: center;
+  }
+} */

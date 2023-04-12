@@ -1,0 +1,19 @@
+.widget {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.widgetTitle {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.widgetTitle h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1rem;
+}

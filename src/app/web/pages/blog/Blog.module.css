@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 1280px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 80px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.blogContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* .aside {
+  max-width: 25%;
+} */

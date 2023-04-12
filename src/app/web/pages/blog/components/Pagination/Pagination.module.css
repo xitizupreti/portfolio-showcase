@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.blogCards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.paginationBtn {
+  width: 80%;
+  display: flex;
+  list-style: none;
+  height: 40px;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+}
+
+.paginationBtn a {
+  text-decoration: none;
+  color: #555;
+  border-radius: 5px;
+  padding: 8px 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBtn a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.activeBtn a {
+  background-color: #333;
+  color: #eee;
+}
+
+.activeBtn a:hover {
+  background-color: #333;
+  color: #eee;
+}
+
+@media (min-width: 992px) {
+  .container {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}

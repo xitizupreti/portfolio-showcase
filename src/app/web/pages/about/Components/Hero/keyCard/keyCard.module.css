@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  box-shadow: 0px 10px 35px 0px rgb(62 2 16 / 8%);
+  padding: 40px;
+}
+
+.cardDetail h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: var(--secondary);
+}
+
+.cardDetail p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #222222b3;
+}
+
+@media screen and (max-width: 1070px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
