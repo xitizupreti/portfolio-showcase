@@ -6,7 +6,7 @@ const PreviewImage = ({previewImage, previewVisible,setPreviewVisible, setPrevie
     return (
         <Modal
             zIndex={9999}
-            visible={previewVisible}
+            open={previewVisible}
             // title={previewTitle}
             footer={null}
             onCancel={() => {

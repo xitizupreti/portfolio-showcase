@@ -43,7 +43,7 @@ const QueryTab = ({customer}) => {
     <div className="tab-pane fade show active" id="pills-review">
       <h6 className="view-title">Queries</h6>
         <Row gutter={[16,16]}>
-            {(Array.isArray(data) && data.length > 0) ? data?.map(query => <Item query={query} />) : <span className='text-muted'>No Query Found</span>}
+            {(Array.isArray(data) && data.length > 0) ? data?.map(query => <Item key={query.id} query={query} />) : <span className='text-muted'>No Query Found</span>}
         </Row>
     </div>
   );

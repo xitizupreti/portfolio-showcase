@@ -98,7 +98,7 @@ function ClientLayout(props) {
         <ShopContextProvider>
           <OrderTypeProvider>
             <RegionsProvider>
-              <Layout id="main-</UserCartProvider>wrapper" class="site-wrapper">
+              <Layout id="main-</UserCartProvider>wrapper" className="site-wrapper">
                 <NavigationHeader {...props} />
                 <CartItems />
                 <div>{switchRoutes(routeConfig)}</div>

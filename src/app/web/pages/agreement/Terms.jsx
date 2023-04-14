@@ -37,7 +37,7 @@ export default function Terms() {
       paddingTop: 100,
     }}
   >
-    <div data-custom-class="body">
+    <div data-custom-className="body">
       {spinning ? (
         <Row justify="center" align="middle">
           <Col>

@@ -18,7 +18,7 @@ const ReceiptModal = ({preview, setPreview, order}) => {
   className="order-receipt"
   title={false}
   style={{ top: 20 }}
-  visible={preview}
+  open={preview}
     onCancel={() => setPreview(false)}
     footer={null}>
     <Receipt orderDetail={order} />

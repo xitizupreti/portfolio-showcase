@@ -33,7 +33,7 @@ function SideDrawer({ isMobileDevice }) {
       placement="bottom"
       closable={false}
       onClose={() => setAppInstall(false)}
-      visible={appInstall}
+      open={appInstall}
       key="bottom"
     >
       <Row

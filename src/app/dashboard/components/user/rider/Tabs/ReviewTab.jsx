@@ -15,7 +15,7 @@ const Item = ({review}) => <div className="col-md-12 media">
     <span className="text-muted pull-right">
               <small className="text-muted ml-2">
                 {[...Array(5).keys()].map((each) => (
-                    <i
+                    <i key={each.id}
                         className="fas fa-star"
                         style={{
                             color: each + 1 <= (review ? review.rating : 1) && '#f5b223',
@@ -50,7 +50,7 @@ const ReviewTab = ({reviews}) => {
       <h6 className="view-title">Review</h6>
       <hr />
       <Row gutter={[16,16]}>
-        {(Array.isArray(reviews) && reviews.length > 0) ? reviews?.map(review => <Item review={review} />) : <span className='text-muted'>No Reviews Found</span>}
+        {(Array.isArray(reviews) && reviews.length > 0) ? reviews?.map(review => <Item key={review.id} review={review} />) : <span className='text-muted'>No Reviews Found</span>}
       </Row>
     </div>
   );

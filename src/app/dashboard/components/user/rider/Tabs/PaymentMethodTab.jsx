@@ -78,7 +78,7 @@ const PaymentMethodTab = ({rider}) => {
         <div className="tab-pane fade show active" id="pills-review">
             <h6 className="view-title">Saved Payment Method</h6>
             <Row gutter={[16,16]}>
-                {(Array.isArray(data) && data.length > 0) ? data?.map(item => <Item item={item} />) : <span className='text-muted'>No saved payment method found!</span>}
+                {(Array.isArray(data) && data.length > 0) ? data?.map(item => <Item key={item.id} item={item} />) : <span className='text-muted'>No saved payment method found!</span>}
             </Row>
         </div>
     );

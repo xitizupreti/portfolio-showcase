@@ -584,7 +584,7 @@ export default function Checkout() {
         gutter={[16, 32]}
       >
         <label
-          class="mt-4"
+          className="mt-4"
           style={{
             width: "100%",
           }}
@@ -600,7 +600,7 @@ export default function Checkout() {
             }}
             bordered={false}
           >
-            <label class="mt-4">
+            <label className="mt-4">
               Order:{" "}
               <Tag
                 style={{
@@ -781,7 +781,7 @@ export default function Checkout() {
                           {/*))}*/}
                         </Radio.Group>
                         <div
-                          class="payment-details"
+                          className="payment-details"
                           style={{
                             marginTop: 10,
                             marginBottom: 20,

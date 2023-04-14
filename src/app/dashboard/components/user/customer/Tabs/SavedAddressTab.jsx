@@ -90,7 +90,7 @@ const SavedAddress = ({customer}) => {
         <div className="tab-pane fade show active" id="pills-review">
             <h6 className="view-title">Customer's Saved Address</h6>
             <Row gutter={[16,16]}>
-                {(Array.isArray(data) && data.length > 0) ? data?.map(item => <Item item={item} />) : <span className='text-muted'>No saved address found!</span>}
+                {(Array.isArray(data) && data.length > 0) ? data?.map(item => <Item key={item.id} item={item} />) : <span className='text-muted'>No saved address found!</span>}
             </Row>
         </div>
     );

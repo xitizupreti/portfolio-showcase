@@ -30,7 +30,7 @@ const ValidateRider = ({ rider, open, onClose }) => {
      title={null}
      keyboard={false}
      width={600}
-      visible={open}
+      open={open}
       footer={null}
       onCancel={onClose}
     >

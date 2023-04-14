@@ -144,7 +144,7 @@ export default function ListTableRequest({
        title={null}
        keyboard={false}
        width={400}
-        visible={insufficientModel}
+        open={insufficientModel}
         onCancel={() => setInsufficientModel(false)}
         onOk={onDocumentIncomplete}
       >

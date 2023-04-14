@@ -43,7 +43,7 @@ const RiderNotify = ({ children, rider, subject }) => {
         title={`Send Notification to ${rider?.name}`}
         width={720}
         onClose={handleClickClose}
-        visible={open}
+        open={open}
         bodyStyle={{ paddingBottom: 80 }}
         footer={false}
       >

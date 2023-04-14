@@ -77,7 +77,7 @@ function RegionSelect() {
   return (
     <>
       <Modal
-        visible={isRegionModalVisible}
+        open={isRegionModalVisible}
         onOk={regionOkHandler}
         onCancel={regionCancelHandler}
         footer={null}
@@ -126,7 +126,7 @@ function RegionSelect() {
                       style={{ display: "flex" }}
                     >
                       <span>
-                        <i class="fas fa-map-marker-alt"></i>
+                        <i className="fas fa-map-marker-alt"></i>
                         {selectedRegion.name ? (
                           selectedRegion.name
                         ) : regionName ? (
@@ -167,7 +167,7 @@ function RegionSelect() {
           className={styles.currentRegionButton}
           onClick={RegionClickHandler}
         >
-          <i class="fas fa-map-marker-alt"></i>
+          <i className="fas fa-map-marker-alt"></i>
           <span style={{ marginLeft: "10px", marginRight: "2px" }}>
             {regionName ? regionName : <Spin />}
           </span>

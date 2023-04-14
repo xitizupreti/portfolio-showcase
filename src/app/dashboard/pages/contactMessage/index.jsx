@@ -112,7 +112,7 @@ export default function ContactMessagePage() {
 					<Col key={row._id}>
 						<SendEmail
 							subject={detail.subject}
-							visible={visible}
+							open={visible}
 							email={detail.email}
 							onClose={() => setVisible(false)}
 						/>

@@ -67,7 +67,7 @@ export default function OrderPreview({
       title={false}
       footer={false}
       onCancel={() => setPreviewVisible(false)}
-      visible={previewVisible}
+      open={previewVisible}
     >
       {spinning ? (
         <Row

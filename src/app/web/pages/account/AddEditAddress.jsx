@@ -178,7 +178,7 @@ return (
     className="food-detail-modal"
     title={item ? 'Edit Delivery Address' : 'Add Delivery Address'}
     style={{ top: 20 }}
-    visible={preview}
+    open={preview}
       onCancel={() => {
         onCancel();
         form.resetFields();

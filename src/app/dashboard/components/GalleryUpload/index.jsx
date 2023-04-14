@@ -147,7 +147,7 @@ function GalleryUpload({
 			</Upload>
 			{helperText}
 			<Modal
-				visible={previewVisible}
+				open={previewVisible}
 				title={previewTitle}
 				footer={null}
 				onCancel={() => setPreviewVisible(false)}

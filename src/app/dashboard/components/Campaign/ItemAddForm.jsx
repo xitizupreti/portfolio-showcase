@@ -232,7 +232,7 @@ const ItemAddForm = ({ ItemId, history, pageTitle="Send SMS", rowStyle }) => {
                           onChange={onFormChange("restaurantRegion")}
                         >
                           {regions.map((each) => (
-                            <Select.Option value={each?._id?.toString()}>
+                            <Select.Option key={each.id} value={each?._id?.toString()}>
                               {each?.name}
                             </Select.Option>
                           ))}
@@ -253,7 +253,7 @@ const ItemAddForm = ({ ItemId, history, pageTitle="Send SMS", rowStyle }) => {
                           onChange={onFormChange("restaurantStatus")}
                         >
                           {riderRequestStatus.map((each) => (
-                            <Select.Option value={each?.value.toString()}>
+                            <Select.Option key={each.id} value={each?.value.toString()}>
                               {each?.label}
                             </Select.Option>
                           ))}
@@ -312,7 +312,7 @@ const ItemAddForm = ({ ItemId, history, pageTitle="Send SMS", rowStyle }) => {
                           onChange={onFormChange("riderVehicle")}
                         >
                           {vehicleTypes.map((each) => (
-                            <Select.Option value={each?._id?.toString()}>
+                            <Select.Option key={each.id} value={each?._id?.toString()}>
                               {each?.name}
                             </Select.Option>
                           ))}
@@ -333,7 +333,7 @@ const ItemAddForm = ({ ItemId, history, pageTitle="Send SMS", rowStyle }) => {
                           onChange={onFormChange("riderStatus")}
                         >
                           {riderRequestStatus.map((each) => (
-                            <Select.Option value={each?.value.toString()}>
+                            <Select.Option key={each.id} value={each?.value.toString()}>
                               {each?.label}
                             </Select.Option>
                           ))}

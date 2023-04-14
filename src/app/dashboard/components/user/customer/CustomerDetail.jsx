@@ -105,7 +105,7 @@ const CustomerDetail = ({ customer }) => {
                     {tabs.map((tab, idx) => (
                       <Tabs.TabPane
                         tab={
-                          <li
+                          <li key={idx}
                             className={tab.key === activeKey && "active"}
                             style={{
                               width: "100%",
@@ -136,7 +136,7 @@ const CustomerDetail = ({ customer }) => {
                     {tabs.map((tab, idx) => (
                       <Tabs.TabPane
                         tab={
-                          <li
+                          <li key={idx}
                             className={tab.key === activeKey && "active"}
                             style={{ width: "100%" }}
                           >

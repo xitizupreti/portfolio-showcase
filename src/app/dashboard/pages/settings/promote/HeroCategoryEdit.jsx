@@ -73,7 +73,7 @@ export default function HeroCategoryEdit({
   return (
     <Modal
       title="Edit Hero Category"
-      visible={open}
+      open={open}
       style={{ top: 1 }}
       width="90%"
       onOk={onSaveForm}

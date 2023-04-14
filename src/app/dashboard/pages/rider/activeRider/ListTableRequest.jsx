@@ -119,7 +119,7 @@ export default function ListTableRequest({
            title={null}
            keyboard={false}
            width={400}
-            visible={suspendModel}
+            open={suspendModel}
             onCancel={() => setSuspendModel(false)}
             onOk={onSuspendRider}
         >

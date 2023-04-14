@@ -17,7 +17,7 @@ const ProfileOverview = ({profile, customerReview, onRateClick}) => {
                 cursor: 'pointer'
             }} onClick={onRateClick}>
                 {[...Array(5).keys()].map((each) => (
-                    <i
+                    <i key={each.id}
                         className="fas fa-star"
                         style={{
                             color: each + 1 <= customerReview?.rating && '#f5b223',

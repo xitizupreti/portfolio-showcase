@@ -45,7 +45,7 @@ export default function SendEmail({
 			title="Send Email"
 			width={720}
 			onClose={onClose}
-			visible={visible}
+			open={visible}
 			bodyStyle={{ paddingBottom: 80 }}
 			footer={false}
 		>

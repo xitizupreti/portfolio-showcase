@@ -142,7 +142,7 @@ const RestaurantDetailModal = ({ data, detailPreview, setDetailPreview }) => {
       className="restaurant-detail-modal"
       title={data.name}
       style={{ top: 20 }}
-      visible={detailPreview}
+      open={detailPreview}
       cancelButtonProps={null}
       onCancel={() => setDetailPreview(false)}
       onOk={() => setDetailPreview(false)}
@@ -540,7 +540,6 @@ const Food = ({ data, restaurantDetail, isOpen, category }) => {
         </Col>
         <Col className="product-container" lg={14} sm={14} xs={14}>
           <span
-            style={{}}
             onClick={() =>
               isOpen
                 ? setFoodDetail(true)
@@ -1100,7 +1099,6 @@ export default function RestaurantDetail(props) {
         setReviewSpinning={setReviewSpinning}
         reviewSpinning={reviewSpinning}
         // refreshReview={refreshReviews}
-        reviewDetail={reviewDetail}
         restaurantId={restaurantDetail && restaurantDetail._id}
       />
       <RestaurantDetailModal

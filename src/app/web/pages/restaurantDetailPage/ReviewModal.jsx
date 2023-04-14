@@ -13,7 +13,7 @@ function ReviewModal({ isModalVisible, handleOk, handleCancel, reviewDetail, ...
       //   ? reviewDetail.reviews.filter((each) => !!each.review)
       //       .length
       //   : 0}
-      visible={isModalVisible}
+      open={isModalVisible}
       onOk={handleOk}
     onCancel={handleCancel}
     footer={null}

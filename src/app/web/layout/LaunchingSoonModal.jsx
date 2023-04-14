@@ -17,7 +17,7 @@ export default function LaunchingSoonModal() {
      keyboard={false}
      width={400}
       style={{ top: 20 }}
-      visible={isVisible}
+      open={isVisible}
       onCancel={() => setIsVisible(false)}
       footer={null}
     >

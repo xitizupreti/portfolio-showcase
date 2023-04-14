@@ -1,10 +1,10 @@
-$(function() {
-    "use strict";
-    /*=============================================
+$(function () {
+  "use strict";
+  /*=============================================
     =                Prealoder                  =
     =============================================*/
-    if ($('.preloader').length) {
-        $('.preloader').fadeOut();
-    }
-    /*=====  End of Prealoder  ======*/
-})
+  if ($(".preloader").length) {
+    $(".preloader").fadeOut();
+  }
+  /*=====  End of Prealoder  ======*/
+});

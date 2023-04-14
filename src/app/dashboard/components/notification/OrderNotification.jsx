@@ -51,7 +51,7 @@ const OrderNotification = ({
             {orderCount > 0 ? (
               order.map((order, idx) => {
                 return (
-                  <Link to={routeURL.cms.pending_order()}>
+                  <Link key={idx} to={routeURL.cms.pending_order()}>
                     <div
                       style={{
                         marginBottom: "10px",
@@ -64,7 +64,7 @@ const OrderNotification = ({
                       {order.restaurantId.name}:{" "}
                       {order.cartId.foods.map((item, index) => {
                         return (
-                          <span
+                          <span key={index}
                             style={{
                               color: "#05A357",
                             }}

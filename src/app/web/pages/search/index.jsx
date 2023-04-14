@@ -189,7 +189,7 @@ const Search = (props) => {
 
               <Modal
                 style={{ top: 40 }}
-                visible={isModalVisible}
+                open={isModalVisible}
                 onCancel={handleCancel}
                 footer={null}
                 bodyStyle={{ minHeight: "400px" }}

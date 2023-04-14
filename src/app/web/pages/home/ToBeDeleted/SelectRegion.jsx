@@ -48,7 +48,7 @@ const SelectRegion = ({ fetchPackage }) => {
         height: 500,
         width: 300,
       }}
-      visible={false}
+      open={false}
       footer={null}
       maskClosable={false}
       keyboard={false}

@@ -118,7 +118,7 @@ const SideMenu = ({ isAuth, onLogout, profile }) => {
         placement={"left"}
         closable={false}
         onClose={() => setVisible(false)}
-        visible={visible}
+        open={visible}
         key={"right"}
       >
         {isAuth ? (

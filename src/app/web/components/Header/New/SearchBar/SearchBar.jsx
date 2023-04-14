@@ -75,7 +75,7 @@ function SearchBar({ showButton, style, isMobileDevice }) {
     <div className={styles.searchBarContainer} style={{ ...style }}>
       {/* ----------search input---------- */}
       <div className={`${styles.searchBarInput}`}>
-        <i class="fa fa-search" aria-hidden="true"></i>
+        <i className="fa fa-search" aria-hidden="true"></i>
         <AutoComplete
           value={searchText}
           options={searchOptions}

@@ -141,7 +141,7 @@ const ItemAddForm = ({
                         onChange={onFormChange}
                       >
                         {restaurants && restaurants.map((restaurant, idx) => {
-                          return <Select.Option value = {restaurant._id}>{restaurant.name}</Select.Option>
+                          return <Select.Option key={restaurant.id} value = {restaurant._id}>{restaurant.name}</Select.Option>
                         })}
                       </Select>
                     </Form.Item>

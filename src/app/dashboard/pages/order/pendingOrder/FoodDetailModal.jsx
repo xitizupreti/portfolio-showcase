@@ -112,7 +112,7 @@ export default function FoodDetailModal({
           >
             {addon.items.map((item) => (
               <Radio
-                style={radioStyle}
+                // style={radioStyle}
                 value={item._id.toString()}
                 style={{
                   display: 'flex',
@@ -154,7 +154,7 @@ export default function FoodDetailModal({
           >
             {addon.items.map((item) => (
               <Checkbox
-                style={radioStyle}
+                // style={radioStyle}
                 value={item._id.toString()}
                 style={{
                   display: 'flex',
@@ -434,7 +434,7 @@ export default function FoodDetailModal({
      className="food-detail-modal"
      title={data.name}
      style={{ top: 20 }}
-     visible={preview}
+     open={preview}
       onCancel={() => setPreview(false)}
       footer={ModalFooter}
     >

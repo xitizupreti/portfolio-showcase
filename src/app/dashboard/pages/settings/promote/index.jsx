@@ -74,7 +74,7 @@ export default function Promotion() {
         }
       />
       <Modal
-        visible={previewVisible}
+        open={previewVisible}
         // title={previewTitle}
         footer={null}
         onCancel={() => {
